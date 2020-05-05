@@ -11,31 +11,95 @@ public class Listener {
     /**
     * @generated
     */
-    public Integer Id;
+    private static Integer count;
     
     /**
     * @generated
     */
-    public Integer UserId;
+    private Integer id;
     
     /**
     * @generated
     */
-    public Integer CourseId;
-    
-    
-    /**
-    * @generated
-    */
-    public Course course;
+    private Integer userId;
     
     /**
     * @generated
     */
-    public List<Mark> mark;
+    private Integer courseId;
     
     /**
     * @generated
     */
-    public User user;
+    private Course course;
+    
+    /**
+    * @generated
+    */
+    private List<Mark> mark;
+    
+    /**
+    * @generated
+    */
+    private User user;
+    
+    /**
+    * @generated
+    */
+    public void setCount(Integer count) {
+        this.count = count;
+    }
+    
+    /**
+    * @generated
+    */
+    public Integer getId() {
+        return this.id;
+    }
+    
+    /**
+    * @generated
+    */
+    public Integer getUserId() {
+        return this.userId;
+    }
+    
+    /**
+    * @generated
+    */
+    public Integer getCourseId() {
+        return this.courseId;
+    }   
+    
+    /**
+    * @generated
+    */
+    public Course getCourse() {
+        return this.course;
+    }
+    
+    /**
+    * @generated
+    */
+    public User getUser() {
+        return this.user;
+    }
+    
+    /**
+    * @generated
+    */
+    public List<Mark> getMark() {
+        return this.mark;
+    }
+    
+
+    //                          Operations                                  
+    
+    /**
+    * @generated
+    */
+    public Listener() {
+        //TODO
+    }
+    
 }

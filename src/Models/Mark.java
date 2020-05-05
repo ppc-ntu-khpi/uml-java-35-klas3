@@ -9,36 +9,101 @@ public class Mark {
     /**
     * @generated
     */
-    public Integer Id;
+    private static Integer count;
     
     /**
     * @generated
     */
-    public Integer ListenerId;
+    private Integer id;
     
     /**
     * @generated
     */
-    public Integer TaskId;
+    private Integer listenerId;
     
     /**
     * @generated
     */
-    public Integer Mark;
+    private Integer taskId;
     
     /**
     * @generated
     */
-    public String ListenerMessage;
+    private Integer mark;
+    
+    /**
+    * @generated
+    */
+    private String listenerMessage;
     
     
     /**
     * @generated
     */
-    public Task task;
+    private Task task;
     
     /**
     * @generated
     */
-    public Listener listener;
+    private Listener listener;
+    
+    /**
+    * @generated
+    */
+    public Integer getId() {
+        return this.id;
+    }
+    
+    /**
+    * @generated
+    */
+    public void setListenerId(Integer ListenerId) {
+        this.listenerId = ListenerId;
+    }
+    
+    /**
+    * @generated
+    */
+    public Integer getTaskId() {
+        return this.taskId;
+    }
+    
+    /**
+    * @generated
+    */
+    public Integer getMark() {
+        return this.mark;
+    }
+    
+    /**
+    * @generated
+    */
+    public String getListenerMessage() {
+        return this.listenerMessage;
+    }
+    
+    /**
+    * @generated
+    */
+    public Listener getListener() {
+        return this.listener;
+    }
+    
+    /**
+    * @generated
+    */
+    public Task getTask() {
+        return this.task;
+    }
+    
+
+    //                          Operations                                  
+    
+    /**
+    * @generated
+    */
+    public Mark() {
+        //TODO
+    }
+    
 }

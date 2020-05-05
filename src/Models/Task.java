@@ -11,36 +11,110 @@ public class Task {
     /**
     * @generated
     */
-    public Integer Id;
+    private Integer count;
     
     /**
     * @generated
     */
-    public String Name;
+    private Integer id;
     
     /**
     * @generated
     */
-    public String Description;
+    private String name;
     
     /**
     * @generated
     */
-    public Date Deadline;
+    private String description;
     
     /**
     * @generated
     */
-    public Integer MaxMark;
+    private Date deadline;
+    
+    /**
+    * @generated
+    */
+    private Integer maxMark;
     
     
     /**
     * @generated
     */
-    public Course course;
+    private Course course;
     
     /**
     * @generated
     */
-    public Mark mark;
+    private Mark mark;
+    
+    
+    /**
+    * @generated
+    */
+    public Integer getCount() {
+        return this.count;
+    }
+    
+    /**
+    * @generated
+    */
+    public Integer getId() {
+        return this.id;
+    }
+    
+    /**
+    * @generated
+    */
+    public String getName() {
+        return this.name;
+    }
+    
+    /**
+    * @generated
+    */
+    public String getDescription() {
+        return this.description;
+    }
+    
+    /**
+    * @generated
+    */
+    public Date getDeadline() {
+        return this.deadline;
+    }
+    
+    /**
+    * @generated
+    */
+    public Integer getMaxMark() {
+        return this.maxMark;
+    }
+    
+    
+    /**
+    * @generated
+    */
+    public Course getCourse() {
+        return this.course;
+    }
+    
+    /**
+    * @generated
+    */
+    public Mark getMark() {
+        return this.mark;
+    }
+    
+
+    //                          Operations                                  
+    
+    /**
+    * @generated
+    */
+    public Task() {
+        //TODO
+    }
+    
 }

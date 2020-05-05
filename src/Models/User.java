@@ -11,37 +11,110 @@ public class User {
     /**
     * @generated
     */
-    public Integer Id;
+    private Integer count;
     
     /**
     * @generated
     */
-    public String FirstName;
+    private Integer id;
     
     /**
     * @generated
     */
-    public String LastName;
+    private String firstName;
     
     /**
     * @generated
     */
-    public String Login;
+    private String lastName;
     
     /**
     * @generated
     */
-    public String Password;
+    private String login;
+    
+    /**
+    * @generated
+    */
+    private String password;
     
     
     /**
     * @generated
     */
-    public List<Course> course;
+    private List<Course> course;
+    
+    /**
+    * @generated
+    */
+    private List<Listener> listener;
     
     
     /**
     * @generated
     */
-    public List<Listener> listener;
+    public Integer getCount() {
+        return this.count;
+    }
+    
+    /**
+    * @generated
+    */
+    public Integer getId() {
+        return this.id;
+    }
+    
+    /**
+    * @generated
+    */
+    public String getFirstName() {
+        return this.firstName;
+    }
+    
+    /**
+    * @generated
+    */
+    public String getLastName() {
+        return this.lastName;
+    }
+    
+    /**
+    * @generated
+    */
+    public String getLogin() {
+        return this.login;
+    }
+    
+    /**
+    * @generated
+    */
+    public String getPassword() {
+        return this.password;
+    }
+    
+    
+    /**
+    * @generated
+    */
+    public List<Listener> getListener() {
+        return this.listener;
+    }
+    
+    /**
+    * @generated
+    */
+    public List<Course> getCourse() {
+        return this.course;
+    }
+    
+
+    //                          Operations                                  
+    
+    /**
+    * @generated
+    */
+    public User() {
+        //TODO
+    }
+    
 }

@@ -1,5 +1,8 @@
 package Repositories;
 
+import Models.User;
+import java.util.List;
+
 
 /**
 * @generated
@@ -9,7 +12,21 @@ public class UserRepository {
     /**
     * @generated
     */
-    private final String connectionString = "";
+    private String connectionString;
+    
+    /**
+    * @generated
+    */
+    private List<User> users;
+
+    /**
+    * @generated
+    */
+    public void setUsers(List<User> users) {
+        this.users = users;
+    }
+    
+
     //                          Operations                                  
     
     /**

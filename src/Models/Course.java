@@ -11,31 +11,90 @@ public class Course {
     /**
     * @generated
     */
-    public Integer Id;
+    private static Integer count;
     
     /**
     * @generated
     */
-    public Integer TeacherId;
+    private Integer id;
     
     /**
     * @generated
     */
-    public String Name;
+    private Integer teacherId;
+    
+    /**
+    * @generated
+    */
+    private String name;
     
     
     /**
     * @generated
     */
-    public Listener listener;
+    private List<Listener> listeners;
     
     /**
     * @generated
     */
-    public List<Task> task;
+    private List<Task> task;
     
     /**
     * @generated
     */
-    public User user;
+    private User user;
+    
+    /**
+    * @generated
+    */
+    public Integer getId() {
+        return this.id;
+    }
+    
+    /**
+    * @generated
+    */
+    public Integer getTeacherId() {
+        return this.teacherId;
+    }
+    
+    /**
+    * @generated
+    */
+    public String getName() {
+        return this.name;
+    }
+    
+    /**
+    * @generated
+    */
+    public List<Listener> getListeners() {
+        return this.listeners;
+    }
+    
+    /**
+    * @generated
+    */
+    public List<Task> getTask() {
+        return this.task;
+    }
+    
+    
+    /**
+    * @generated
+    */
+    public User getUser() {
+        return this.user;
+    }
+    
+
+    //                          Operations                                  
+    
+    /**
+    * @generated
+    */
+    public Course() {
+        //TODO
+    }
+    
 }
